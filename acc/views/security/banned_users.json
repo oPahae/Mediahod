@@ -1,0 +1,34 @@
+[
+    {
+        "ip": "::1",
+        "ban_time": "2024-08-29 13:34:07",
+        "location": "Berrchid",
+        "region": "Unknown",
+        "country": "Morocco",
+        "isp": "AS15169 Google LLC"
+    },
+    {
+        "ip": "::192.168.1.103",
+        "ban_time": "2024-08-29 13:35:12",
+        "location": "Berrchid",
+        "region": "Unknown",
+        "country": "Morocco",
+        "isp": "Unknown"
+    },
+    {
+        "ip": "::192.168.1.139",
+        "ban_time": "2024-08-29 17:00:34",
+        "location": "Casablanca",
+        "region": "Unknown",
+        "country": "Morocco",
+        "isp": "Acasio services LLC beten"
+    },
+    {
+        "ip": "::1",
+        "ban_time": "2024-08-30 23:01:38",
+        "location": "Near Casablanca-Settat",
+        "region": "Unknown",
+        "country": "Morocco",
+        "isp": "ips"
+    }
+]

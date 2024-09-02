@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background: var(--body);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background: var(--body);
+    width: 99%;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 15px 35px rgba(0, 51, 102, 0.3);
+}
+
+.contact-header {
+    background-color: #003366;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-content {
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.contact-content a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
+
+.contact-form-container {
+    padding: 40px;
+}
+
+.contact-form h2 {
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1e90ff;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #1e90ff;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px 40px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+}
+
+.form-group input[type="file"] {
+    padding: 0;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #002244;
+}
+
+.success-message {
+    background-color: #e6ffed;
+    color: #007a33;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.success-message button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007a33;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.success-message button:hover {
+    background-color: #005a24;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-header {
+        padding: 20px;
+    }
+
+    .contact-content, .contact-form-container {
+        padding: 20px;
+    }
+}
